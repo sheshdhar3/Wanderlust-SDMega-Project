@@ -57,7 +57,7 @@ resource "aws_instance" "SDtestinstance" {
     Name = "Automate-Master"
   }
   root_block_device {
-    volume_size = 25 
+    volume_size = 22 
     volume_type = "gp3"
   }
 }
